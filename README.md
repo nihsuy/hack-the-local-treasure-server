@@ -18,14 +18,21 @@ None. H2 Database is used.
 
 ## How to run
 
-1. Type the following command on your project root directory. Executable jar file is created under build/libs/.
+Type the following command on the project root directory. Executable jar file is created under build/libs/.
+
 > \# gradle build
-2. Move to the directory which jar file is created.
+
+Move to the directory where the jar file is created.
+
 > \# cd build/libs
-3. Put db file.
-4. Type the following command.
+
+Put db file on the directory.
+
+Type the following command.
+
 > \# jar -jar [jar file name]
-5. Web api is served at http://localhost:9001
+
+Web api is served at http://localhost:9001
 
 ## How to run tests
 
