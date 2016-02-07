@@ -6,8 +6,6 @@
 
 On running a batch to create DB, replace API KEY for Docomo in RegisterDBTask.java
 
-None
-
 **Dependencies**
 
 Java8
