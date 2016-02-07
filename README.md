@@ -2,19 +2,19 @@
 
 ## How to set up
 
-** Configuration **
+**Configuration**
 
-On running batch to create DB, replace API KEY for Docomo in RegisterDBTask.java
+On running a batch to create DB, replace API KEY for Docomo in RegisterDBTask.java
 
 None
 
-** Dependencies ** 
+**Dependencies**
 
 Java8
 
-Other dependencies are automatically solved by gradle.
+Other dependencies are solved by gradle.
 
-** Database configuration **
+**Database configuration**
 
 None. H2 Database is used.
 
