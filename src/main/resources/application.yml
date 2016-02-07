@@ -1,0 +1,26 @@
+server:
+  port: 9001
+
+spring:
+  profiles:
+    active: dev
+    
+  jpa.hibernate.ddl-auto: update
+  
+logging:
+  file: logs/htlt.log
+  level:
+    org.springframework: INFO
+#    org.springframework.web: DEBUG
+    com.taikenfactory.hotarea.web: DEBUG
+    
+---
+spring:
+  profiles: dev
+  datasource:
+    driverClassName: org.h2.Driver
+#    url: jdbc:h2:mem:htlt
+    url: jdbc:h2:file:./htlt
+    username: sa
+    password: 
+  jpa.database: H2

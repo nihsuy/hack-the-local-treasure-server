@@ -1,0 +1,22 @@
+# Eclipse
+.project
+.classpath
+.settings
+.springBeans
+
+# OS
+.DS_Store
+
+# Gradle
+.gradle
+gradle
+gradlew
+gradlew.bat
+
+# Build
+build
+bin
+
+# Other
+logs
+*.db
